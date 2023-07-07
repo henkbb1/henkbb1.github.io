@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    width: 100vw;
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom: 2px solid white;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 32px;
+    transition: 0.3s;
+
+}
+.left, .right{
+    display: flex;
+
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    gap: 10px;
+
+}
+.right{
+    margin-right: 1.5vw;
+}
+a:hover{
+    color: black;
+    border-bottom: 3px solid black;
+
+}
+.logo{
+    background-image: url("logo\ \(2\).png");
+    width: 4vw;
+    height: 5vh;
+    background-size: 3vw 5vh;
+    background-repeat: no-repeat;
+    border-bottom: none;
+}
+
+.mesto{
+    background-image: url("mesto.png");
+    width: 25px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+
+}
+.poisk{
+    background-image: url("poisk.png");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-image: url(bmw.jpg);
+    background-size: contain    ;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 80vh;
+    margin-left: 5vw;
+}
+
+
+.knopka{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    
+
+}
+.knopka h1{
+    font-size: 46px;
+    color: rgb(37, 35, 35);
+    margin: 0px;
+}
+.knopka h2{
+    font-size: 40px;
+    color: rgb(37, 35, 35);
+    margin: 0px;
+
+}
+.btn{
+    width: 200px;
+    height: 75px;
+    background-color: rgb(63, 63, 212);
+    border: none;
+    color: white;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.niz, .niz2{
+    margin-left: 3vw;
+    margin-top: 37vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    font-weight: 100;
+}
+h2{
+    font-weight: 100;
+}
+.pizdecniz{
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+}
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 5vh;
+    height: 5vh;
+    display: none;
+}
+.poloski{
+    flex-direction: column;
+    width: 4vw;
+    height: 0.5vh;
+    background-color: lightslategray;
+    margin-top: 5px;
+
+}
