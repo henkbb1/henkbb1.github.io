@@ -75,7 +75,7 @@ a:hover{
     background-size: contain    ;
     background-repeat: no-repeat;
     width: 90vw;
-    height: 80vh;
+    height: 85vh;
     margin-left: 5vw;
 }
 
@@ -84,7 +84,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     margin-left: 5vw;
-    margin-top: 15vh;
+    margin-top: 120px;
     
 
 }
@@ -112,7 +112,7 @@ a:hover{
 
 .niz, .niz2{
     margin-left: 3vw;
-    margin-top: 37vh;
+    margin-top: 300px;
     display: flex;
     flex-direction: column;
     
